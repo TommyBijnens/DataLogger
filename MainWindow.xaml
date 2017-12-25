@@ -1,0 +1,36 @@
+﻿<Window x:Class="Datalogger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Datalogger"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <DataGrid x:Name="dataGrid" ItemsSource="{Binding Dataloggers}" RowHeaderWidth="0" Grid.Column="1"  HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Top"   FrozenColumnCount="3" AutoGenerateColumns="False" AlternationCount="1" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding name, UpdateSourceTrigger=PropertyChanged}" Width="3*" IsReadOnly ="True" />
+                <DataGridTextColumn Header="Url" Binding="{Binding url}" Width="9*" />
+                <DataGridTextColumn Header="Frequency" Binding="{Binding timer}" Width="1*" />
+                <DataGridTextColumn Header="Current Value" Binding="{Binding LastLog, UpdateSourceTrigger=PropertyChanged}" Width="3*" />
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+
+        <DataGrid x:Name="dataGrid2" ItemsSource="{Binding Thermostats}" RowHeaderWidth="0" Grid.Column="1"  HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Top"   FrozenColumnCount="3" AutoGenerateColumns="False" AlternationCount="1" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding name, UpdateSourceTrigger=PropertyChanged}" Width="3*" IsReadOnly ="True" />
+                <DataGridTextColumn Header="Url" Binding="{Binding url}" Width="9*" />
+                <DataGridTextColumn Header="Frequency" Binding="{Binding timer}" Width="1*" />
+                <DataGridTextColumn Header="Min Temp" Binding="{Binding SetTempMin, UpdateSourceTrigger=PropertyChanged}" Width="3*" />
+                <DataGridTextColumn Header="Max Temp" Binding="{Binding SetTempMax, UpdateSourceTrigger=PropertyChanged}" Width="3*" />
+                <DataGridTextColumn Header="Current Value" Binding="{Binding LastLog, UpdateSourceTrigger=PropertyChanged}" Width="3*" />
+                <DataGridCheckBoxColumn Header="Enabled" Binding="{Binding Enabled, UpdateSourceTrigger=PropertyChanged}" Width="3*" />
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="432,289,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+
+    </Grid>
+</Window>

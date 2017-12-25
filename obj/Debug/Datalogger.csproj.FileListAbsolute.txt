@@ -1,0 +1,48 @@
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\bin\Debug\Datalogger.exe.config
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\bin\Debug\Datalogger.exe
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\bin\Debug\Datalogger.pdb
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\bin\Debug\Newtonsoft.Json.dll
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\bin\Debug\Newtonsoft.Json.xml
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\Datalogger.csprojResolveAssemblyReference.cache
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\MainWindow.g.cs
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\App.g.cs
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\Datalogger_MarkupCompile.cache
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\Datalogger_MarkupCompile.lref
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\MainWindow.baml
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\Datalogger.g.resources
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\Datalogger.Properties.Resources.resources
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\Datalogger.csproj.GenerateResource.Cache
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\Datalogger.exe
+C:\My Documents\Visual Studio 2015\Projects\test - 9 - P2\Datalogger\obj\Debug\Datalogger.pdb
+C:\Lijsterhof\Datalogger\bin\Debug\Datalogger.exe.config
+C:\Lijsterhof\Datalogger\bin\Debug\Datalogger.exe
+C:\Lijsterhof\Datalogger\bin\Debug\Datalogger.pdb
+C:\Lijsterhof\Datalogger\bin\Debug\Newtonsoft.Json.xml
+C:\Lijsterhof\Datalogger\obj\Debug\Datalogger.csprojResolveAssemblyReference.cache
+C:\Lijsterhof\Datalogger\obj\Debug\MainWindow.g.cs
+C:\Lijsterhof\Datalogger\obj\Debug\App.g.cs
+C:\Lijsterhof\Datalogger\obj\Debug\Datalogger_MarkupCompile.cache
+C:\Lijsterhof\Datalogger\obj\Debug\Datalogger_MarkupCompile.lref
+C:\Lijsterhof\Datalogger\obj\Debug\MainWindow.baml
+C:\Lijsterhof\Datalogger\obj\Debug\Datalogger.g.resources
+C:\Lijsterhof\Datalogger\obj\Debug\Datalogger.Properties.Resources.resources
+C:\Lijsterhof\Datalogger\obj\Debug\Datalogger.csproj.GenerateResource.Cache
+C:\Lijsterhof\Datalogger\obj\Debug\Datalogger.csproj.CoreCompileInputs.cache
+C:\Lijsterhof\Datalogger\obj\Debug\Datalogger.exe
+C:\Lijsterhof\Datalogger\obj\Debug\Datalogger.pdb
+D:\Projecten\DataLogger\bin\Debug\Datalogger.exe.config
+D:\Projecten\DataLogger\bin\Debug\Datalogger.exe
+D:\Projecten\DataLogger\bin\Debug\Datalogger.pdb
+D:\Projecten\DataLogger\bin\Debug\Newtonsoft.Json.xml
+D:\Projecten\DataLogger\obj\Debug\Datalogger.csprojResolveAssemblyReference.cache
+D:\Projecten\DataLogger\obj\Debug\MainWindow.g.cs
+D:\Projecten\DataLogger\obj\Debug\App.g.cs
+D:\Projecten\DataLogger\obj\Debug\Datalogger_MarkupCompile.cache
+D:\Projecten\DataLogger\obj\Debug\Datalogger_MarkupCompile.lref
+D:\Projecten\DataLogger\obj\Debug\MainWindow.baml
+D:\Projecten\DataLogger\obj\Debug\Datalogger.g.resources
+D:\Projecten\DataLogger\obj\Debug\Datalogger.Properties.Resources.resources
+D:\Projecten\DataLogger\obj\Debug\Datalogger.csproj.GenerateResource.Cache
+D:\Projecten\DataLogger\obj\Debug\Datalogger.csproj.CoreCompileInputs.cache
+D:\Projecten\DataLogger\obj\Debug\Datalogger.exe
+D:\Projecten\DataLogger\obj\Debug\Datalogger.pdb
