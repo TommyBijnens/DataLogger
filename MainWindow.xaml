@@ -30,6 +30,22 @@
             </DataGrid.Columns>
 
         </DataGrid>
+
+
+        <DataGrid x:Name="dataGrid3" ItemsSource="{Binding WaterControls}" RowHeaderWidth="0" Grid.Column="1"  HorizontalAlignment="Stretch" Margin="5" VerticalAlignment="Top"   FrozenColumnCount="3" AutoGenerateColumns="False" AlternationCount="1" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding name, UpdateSourceTrigger=PropertyChanged}" Width="3*" IsReadOnly ="True" />
+                <DataGridTextColumn Header="Url" Binding="{Binding url}" Width="9*" />
+                <DataGridTextColumn Header="Frequency" Binding="{Binding timer}" Width="1*" />
+                <DataGridTextColumn Header="Temp" Binding="{Binding CalculatedTemp, UpdateSourceTrigger=PropertyChanged}" Width="3*" />
+                <!--   <DataGridTextColumn Header="Max Temp" Binding="{Binding SetTempMax, UpdateSourceTrigger=PropertyChanged}" Width="3*" />
+                <DataGridTextColumn Header="Current Value" Binding="{Binding LastLog, UpdateSourceTrigger=PropertyChanged}" Width="3*" />
+                <DataGridCheckBoxColumn Header="Enabled" Binding="{Binding Enabled, UpdateSourceTrigger=PropertyChanged}" Width="3*" />-->
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="432,289,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
 
     </Grid>

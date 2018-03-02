@@ -70,6 +70,7 @@
     <Compile Include="Counter.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="Datalogger.cs" />
+    <Compile Include="WaterTempControl.cs" />
     <Compile Include="Thermostat.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MainWindow.xaml.cs">

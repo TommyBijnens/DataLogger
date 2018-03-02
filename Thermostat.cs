@@ -18,9 +18,30 @@ namespace Datalogger
         public string name { get; set; }
         public string url { get; set; }
         public int timer { get; set; }
-        public double SetTempMin { get; set; }
-        public double SetTempMax { get; set; }
+        private double setTempMin;
+        public double SetTempMin
+        {
+            get { return setTempMin; }
+            set
+            {
+                setTempMin = value;
+                this.RaisePropertyChanged("setTempMin");
+            }
+        }
+        private double setTempMax;
+        public double SetTempMax
+        {
+            get { return setTempMax; }
+            set
+            {
+                setTempMax = value;
+                this.RaisePropertyChanged("setTempMax");
+            }
+        }
         public string CommandUrl;
+        public string MinUrl { get; set; }
+        public string MaxUrl { get; set; }
+        public bool WebsiteDriven = false;
 
         private bool enabled;
         public bool Enabled
@@ -63,11 +84,19 @@ private double lastLog;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-
-
-
-        public Thermostat(string n, string u, string _commandUrl, int t, int _min, int _max)
+        public Thermostat(string n, string u, string _commandUrl, int t, string _minUrl, string _maxUrl):
+             this(n, u, _commandUrl, t, 0, 0)
         {
+            MinUrl = _minUrl;
+            MaxUrl = _maxUrl;
+            WebsiteDriven = true;
+
+        }
+
+
+            public Thermostat(string n, string u, string _commandUrl, int t, int _min, int _max)
+        {
+            WebsiteDriven = false;
             SetTempMin = _min;
             SetTempMax = _max;
             name = n;
@@ -85,6 +114,9 @@ private double lastLog;
         {
             try
             {
+                
+                if (WebsiteDriven) SetTempMin = Convert.ToDouble(getFromWebService(MinUrl).Replace("\"","").Replace(".",","));
+                if (WebsiteDriven) SetTempMax = Convert.ToDouble(getFromWebService(MaxUrl).Replace("\"", "").Replace(".", ","));
                 var running = getFromWebService(CommandUrl);
                 Enabled = (running == "1");
                 LastLog = double.Parse(getFromWebService(url).Replace(".",","));
